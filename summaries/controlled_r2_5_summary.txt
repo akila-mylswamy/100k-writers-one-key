@@ -1,0 +1,17 @@
+pgbench (18.7 (Homebrew))
+transaction type: sharded_5.sql
+scaling factor: 1
+query mode: simple
+number of clients: 50
+number of threads: 5
+maximum number of tries: 1
+number of transactions per client: 2000
+number of transactions actually processed: 100000/100000
+number of failed transactions: 0 (0.000%)
+latency average = 1.803 ms
+latency stddev = 2.531 ms
+initial connection time = 47.751 ms
+tps = 27281.876622 (without initial connection time)
+statement latencies in milliseconds and failures:
+         0.000           0 \set counter_id random(1, 5)
+         1.802           0 UPDATE counters

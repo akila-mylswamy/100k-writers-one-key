@@ -1,0 +1,36 @@
+=== macOS ===
+ProductName:		macOS
+ProductVersion:		27.2.1
+BuildVersion:		26B131
+=== Hardware ===
+hw.model: Mac16,1
+hw.physicalcpu: 10
+hw.logicalcpu: 10
+hw.memsize: 17179869184
+=== PostgreSQL ===
+pgbench (PostgreSQL) 18.7 (Homebrew)
+                                                           version                                                           
+-----------------------------------------------------------------------------------------------------------------------------
+ PostgreSQL 18.7 (Homebrew) on aarch64-apple-darwin27.2.0, compiled by Apple clang version 21.0.0 (clang-2100.4.1.1), 64-bit
+(1 row)
+
+ fsync 
+-------
+ on
+(1 row)
+
+ synchronous_commit 
+--------------------
+ on
+(1 row)
+
+ shared_buffers 
+----------------
+ 128MB
+(1 row)
+
+ max_connections 
+-----------------
+ 100
+(1 row)
+
